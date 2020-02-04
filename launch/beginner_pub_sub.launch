@@ -1,0 +1,15 @@
+<launch>
+
+	<node	pkg="beginner_tutorials" 
+		name="talker_pub" 
+		type="talker.py" 
+		output="screen">
+	</node>
+
+	<node	pkg="beginner_tutorials" 
+		name="listener_sub" 
+		type="listener.py" 
+		output="screen">
+	</node>
+
+</launch>
